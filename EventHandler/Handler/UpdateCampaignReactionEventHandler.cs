@@ -1,10 +1,12 @@
 ﻿using System;
+using CQRSSandBox.CommandPart.Repository;
+using CQRSSandBox.CommandRepository.Repository;
 using CQRSSandBox.Event;
-using CQRSSandBox.Repository;
+using Model = CQRSSandBox.CommandPart.Model;
 
-namespace CQRSSandBox.Handler
+namespace CQRSSandBox.EventHandler.Handler
 {
-    public class UpdateCampaignReactionEventHandler : EventHandler<UpdateCampaignReactionEvent>
+    public class UpdateCampaignReactionEventHandler : CQRSSandBox.CommandPart.Handler.EventHandler<UpdateCampaignReactionEvent>
     {
         private ICampaignReactionRepository campaignReactionRepository;
 

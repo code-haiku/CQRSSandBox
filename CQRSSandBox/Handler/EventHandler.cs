@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CQRSSandBox.Handler
+namespace CQRSSandBox.CommandPart.Handler
 {
     public interface EventHandler<TEvent>
     {

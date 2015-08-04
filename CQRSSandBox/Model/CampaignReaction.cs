@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CQRSSandBox.Model
+namespace CQRSSandBox.CommandPart.Model
 {
     public class CampaignReaction
     {
